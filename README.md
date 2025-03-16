@@ -3,22 +3,6 @@
 
 ## Utiliser comme extension
 
-Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
+Collège notre dame
 
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Nouveau projet**
-* cliquez sur **Extensions** dans le menu engrenage
-* recherchez **https://github.com/amitron-dev/quilles** et importez
-
-## Éditer ce projet
-
-Éditer ce dépôt dans MakeCode.
-
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez **https://github.com/amitron-dev/quilles** et cliquez sur importer
-
-#### Métadonnées (utilisées pour la recherche, le rendu)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+<img width="684" alt="1679006735373-Capture+d’écran+2023-03-16+à+23 23 30" src="https://github.com/user-attachments/assets/5afdfc32-dd53-406f-a83c-43b4b6849a6b" />
