@@ -4,7 +4,7 @@ function quilles (vd: number, vg: number, time: number) {
     basic.pause(time)
     Kitronik_Move_Motor.stop()
     basic.showIcon(IconNames.Yes)
-    basic.pause(2000)
+    basic.pause(1000)
     basic.clearScreen()
 }
 input.onButtonPressed(Button.A, function () {
