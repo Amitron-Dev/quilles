@@ -1,4 +1,5 @@
 function quilles (vd: number, vg: number, time: number) {
+    // Launch
     Kitronik_Move_Motor.motorOn(Kitronik_Move_Motor.Motors.MotorLeft, Kitronik_Move_Motor.MotorDirection.Forward, vg)
     Kitronik_Move_Motor.motorOn(Kitronik_Move_Motor.Motors.MotorRight, Kitronik_Move_Motor.MotorDirection.Forward, vd)
     basic.pause(time)
@@ -8,11 +9,7 @@ function quilles (vd: number, vg: number, time: number) {
     basic.clearScreen()
 }
 input.onButtonPressed(Button.A, function () {
-    quilles(50, 70, 3000)
-})
-input.onButtonPressed(Button.B, function () {
-    Kitronik_Move_Motor.motorOn(Kitronik_Move_Motor.Motors.MotorLeft, Kitronik_Move_Motor.MotorDirection.Forward, 51)
-    Kitronik_Move_Motor.motorOn(Kitronik_Move_Motor.Motors.MotorRight, Kitronik_Move_Motor.MotorDirection.Forward, 50)
+    quilles(80, 80, 3000)
 })
 basic.forever(function () {
 	
